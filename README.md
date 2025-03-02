@@ -24,7 +24,7 @@ A **resident SSH key** is a key pair stored directly on a **FIDO2-compatible Yub
 Clone this repository and navigate into the project directory:
 
 ```sh
-git clone https://github.com/your-username/resident-yubikey.git
+git clone https://github.com/your-username/yubikey-resident.git
 cd resident-yubikey
 ```
 
@@ -33,7 +33,7 @@ cd resident-yubikey
 To generate a **new resident SSH key**, run:
 
 ```sh
-docker-compose run --rm keygen
+docker compose run --rm keygen
 ```
 
 This will:
