@@ -1,0 +1,12 @@
+services:
+  keygen:
+    build: .
+    container_name: keygen_service
+    privileged: true
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./ssh_keys:/root/.ssh
+    devices:
+      - /dev/bus/usb:/dev/bus/usb
+    command: ["/usr/local/bin/keygen.sh"]
