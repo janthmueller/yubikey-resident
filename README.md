@@ -25,7 +25,7 @@ Clone this repository and navigate into the project directory:
 
 ```sh
 git clone https://github.com/your-username/yubikey-resident.git
-cd resident-yubikey
+cd yubikey-resident
 ```
 
 ## Usage
